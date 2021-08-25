@@ -1,0 +1,6 @@
+//UC1:To Check Employe present or absent
+let empCheck1 = Math.floor(Math.random() * 10) % 2;
+if(empCheck1==0)
+    console.log("Employee is Absent");
+else
+    console.log("Employee is Present");
